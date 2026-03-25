@@ -15,5 +15,11 @@ echo "Hello, World!";
     <p>Nous sommes en l'an : <?php echo date("Y-M-D"); ?></p>
     <p>Heure actuelle : <?= date("H:i:s") ?></p>
 <!-- Équivalent à : <?php echo date("H:i:s"); ?> -->
+
+
+<a href="index.php">Retour à la page d'accueil</a><br>
+<a href="01-code.php">Aller à la page de code</a><br>
+<a href="02-variable.php">Aller à la page des variables</a><br>
+<a href="03-datatype.php">Aller à la page des types de données</a>
 </body>
 </html>
